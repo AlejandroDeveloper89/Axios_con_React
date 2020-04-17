@@ -7,7 +7,7 @@ export default class PersonInput extends React.Component {
 	};
 
   handleChange = event => {
-    this.setState({ name: event.target.value });
+    this.setState({  name: event.target.value  });
   };
 
   handleSubmit = event => {
